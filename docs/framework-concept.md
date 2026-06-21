@@ -1,8 +1,8 @@
-# Component Assembly Framework
+# Component Composition Framework
 
 ## 1. Summary
 
-Component Assembly Framework is a development framework for building projects made of independent components.
+Component Composition Framework is a development framework for building projects made of independent components.
 
 Each component has a clear boundary, is dependency-agnostic, does not share state directly with other components, keeps inter-component communication stateless, exposes ports, and is hosted by a host. Components connect to other components through connectors declared in the manifest. The project is mainly described by a manifest: which components are installed, what ports they provide, what ports they require, how they are connected, and what configuration each component uses.
 
@@ -10,7 +10,7 @@ The goal is not to make software development simpler by hiding complexity. The g
 
 ## 2. Core Idea
 
-Component Assembly Framework treats a project as a set of component instances hosted by hosts and connected through connectors declared in a manifest, with each instance carrying its own configuration.
+Component Composition Framework treats a project as a set of component instances hosted by hosts and connected through connectors declared in a manifest, with each instance carrying its own configuration.
 
 A component can provide behavior, data, storage, UI, integration, or any other responsibility. What matters is that its external relationship with the rest of the project is explicit.
 
@@ -175,7 +175,7 @@ This supports understanding without requiring the developer to read the whole co
 
 ## 12. Vision
 
-Component Assembly Framework focuses on component boundaries and AI-assisted project building.
+Component Composition Framework focuses on component boundaries and AI-assisted project building.
 
 Component boundaries are intended to support robustness, observability, and uncoupling.
 

@@ -1,4 +1,4 @@
-# Traditional Development vs Component Assembly Framework
+# Traditional Development vs Component Composition Framework
 
 This document contrasts two approaches at a high level.
 
@@ -9,7 +9,7 @@ This document contrasts two approaches at a high level.
 - Integration is frequently handled through direct code relationships.
 - Changes can ripple through the codebase in hard-to-predict ways.
 
-## With Component Assembly Framework
+## With Component Composition Framework
 
 - Components are explicit units.
 - Dependencies are declared through ports and connectors.

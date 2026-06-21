@@ -1,6 +1,6 @@
-# Component Assembly Framework
+# Component Composition Framework
 
-Component Assembly Framework is a framework for building projects made of independent components.
+Component Composition Framework is a framework for building projects made of independent components.
 
 It focuses on clear boundaries, explicit ports, connectors, and hosts, plus observable connections between parts of a system. The goal is to support inspection and AI-assisted workflows where context needs to stay limited and predictable.
 
