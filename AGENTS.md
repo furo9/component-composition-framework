@@ -6,6 +6,9 @@
 - AGENTS section headings use Title Case.
 - Docs headings should use sentence case, not Title Case, unless the text is a proper noun.
 - Workspace package names should start with `@furo9/ccf-`.
+- Docs must be written for end users.
+- Do not frame docs around internal design discussions, provisional terminology, or implementation-conception language.
+- Prefer clear product-facing explanations of what the framework, packages, and apps do.
 
 ## Commands
 - Use `pnpm` (repo pins `pnpm@9.15.0`).
