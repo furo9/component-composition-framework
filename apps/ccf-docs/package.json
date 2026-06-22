@@ -1,0 +1,21 @@
+{
+  "name": "@furo9/ccf-docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "postbuild": "pagefind --site .next/server/app --output-path public/_pagefind",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "15.5.19",
+    "nextra": "4.4.0",
+    "nextra-theme-docs": "4.4.0",
+    "react": "19.2.7",
+    "react-dom": "19.2.7"
+  },
+  "devDependencies": {
+    "pagefind": "^1.5.0"
+  }
+}

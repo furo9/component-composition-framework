@@ -1,8 +1,8 @@
-# Traditional Development vs Component Composition Framework
+# Traditional development vs Component Composition Framework
 
 This document contrasts two approaches at a high level.
 
-## Traditional Development
+## Traditional development
 
 - Dependencies are often spread across source files.
 - Responsibilities and boundaries can be implicit.

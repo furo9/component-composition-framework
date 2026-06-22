@@ -8,7 +8,7 @@ Each component has a clear boundary, is dependency-agnostic, does not share stat
 
 The goal is not to make software development simpler by hiding complexity. The goal is to make software complexity more explicit, controllable, observable, replaceable, and safe for AI-assisted development, especially in large codebases where AI struggles when the territory is not restrained.
 
-## 2. Core Idea
+## 2. Core idea
 
 Component Composition Framework treats a project as a set of component instances hosted by hosts and connected through connectors declared in a manifest, with each instance carrying its own configuration.
 
@@ -35,7 +35,7 @@ These constraints are a prerequisite for replayability, testing, and debugging. 
 
 One of the main goals of the framework is to uniformize how components are connected, configured, tested, and debugged.
 
-## 4. Ports and Connectors
+## 4. Ports and connectors
 
 A port is the endpoint a component exposes or requires.
 
@@ -145,7 +145,7 @@ If a component is stateful, the host can expose snapshots or checkpoints of its 
 
 At a high level, replay can use connector logs, and host-captured state when stateful components are involved and observability is enabled.
 
-## 10. AI-Assisted Development
+## 10. AI-assisted development
 
 The framework is designed so AI can work inside clearer limits.
 
@@ -163,7 +163,7 @@ Component implementation remains a separate package-level concern and can be han
 
 AI can help generate components, suggest replacements, connect compatible ports, explain the manifest, and modify project configuration while preserving explicit boundaries.
 
-## 11. Human Navigation
+## 11. Human navigation
 
 The framework should help developers understand a project by navigating its components and their connectors as much as possible.
 
