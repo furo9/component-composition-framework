@@ -23,3 +23,5 @@ This repository currently captures the concept and direction of the framework.
 ## Documentation
 
 The markdown documentation lives in [`apps/ccf-docs/content/`](apps/ccf-docs/content/).
+
+The example packages live in [`examples/`](examples/).

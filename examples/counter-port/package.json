@@ -1,0 +1,14 @@
+{
+  "name": "@furo9/ccf-example-counter-port",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@furo9/ccf-sdk": "workspace:*"
+  },
+  "files": [
+    "src"
+  ]
+}
